@@ -61,7 +61,7 @@ let antilink = JSON.parse(fs.readFileSync('./database/group/antilink.json'));
 let welkom = JSON.parse(fs.readFileSync('./database/group/welcome.json'))
 let _afk = JSON.parse(fs.readFileSync('./database/user/afk.json'));
 /***************** BATAS COEG **********/
-ownerNumber = ["6281555807465@s.whatsapp.net"]// EDIT JADI NO LU
+ownerNumber = ["6285640253134@s.whatsapp.net"]// EDIT JADI NO LU
 shp = '✘⃝🛠'//*KALO EDIT KETIK .setlogo ya
 hit_today = []
 ky_ttt = []
