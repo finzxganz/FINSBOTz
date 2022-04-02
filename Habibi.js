@@ -138,8 +138,8 @@ module.exports = Suneo = async (Suneo, neo) => {
 		const argz = body.trim().split(/ +/).slice(1)
 		const isCmd = body.startsWith(prefix) 
         const q = args.join(' ')
-		const botNumber = Suneo.user.jid
-		const botNumberss = Suneo.user.jid + '@c.us'
+		const botNumber = Fins.user.jid
+		const botNumberss = Fins.user.jid + '@c.us'
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? neo.participant : neo.key.remoteJid
 		const isTTT = isGroup ? idttt.includes(from) : false
