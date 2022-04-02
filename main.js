@@ -25,7 +25,7 @@ nocache('./Habibi.js', module => console.log(`${module} is now updated!`))
 const starts = async (Suneo = new WAConnection()) => {
     Suneo.logger.level = 'warn'
     Suneo.version = [2, 2143, 3]
-    Suneo.browserDescription = [ 'SuneoBot', 'FireFox', '3.0' ]
+    Suneo.browserDescription = [ 'FinsBot', 'FireFox', '3.0' ]
     
     Suneo.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan bang'))
